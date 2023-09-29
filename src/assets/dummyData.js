@@ -1,3 +1,5 @@
+import { StatusKeys } from '../constants/status';
+
 export const dummyData = [
   {
     jobId: 1,
@@ -5,7 +7,7 @@ export const dummyData = [
     desc: 'We need to plant 7 banana trees in our garden',
     date: '2023-10-14',
     time: '12:30',
-    status: 'NEW',
+    status: StatusKeys.NEW,
     price: 15000.0,
     jobPoster: {
       posterId: 101,
@@ -30,7 +32,7 @@ export const dummyData = [
     desc: 'Trim the hedges in the front yard of the house.',
     date: '2023-10-15',
     time: '14:00',
-    status: 'NEW',
+    status: StatusKeys.NEW,
     price: 5000.0,
     jobPoster: {
       posterId: 102,
@@ -55,7 +57,7 @@ export const dummyData = [
     desc: 'Paint the living room walls and ceiling.',
     date: '2023-10-16',
     time: '10:30',
-    status: 'ESTIMATED',
+    status: StatusKeys.ESTIMATED,
     price: 13000.0,
     jobPoster: {
       posterId: 103,
@@ -80,7 +82,7 @@ export const dummyData = [
     desc: 'Install new kitchen cabinets and countertops.',
     date: '2023-10-17',
     time: '15:45',
-    status: 'ESTIMATED',
+    status: StatusKeys.ESTIMATED,
     price: 11000.0,
     jobPoster: {
       posterId: 104,
@@ -105,7 +107,7 @@ export const dummyData = [
     desc: 'Mow the lawn in the backyard.',
     date: '2023-10-18',
     time: '13:15',
-    status: 'APPROVED',
+    status: StatusKeys.APPROVED,
     price: 6000.0,
     jobPoster: {
       posterId: 105,
@@ -130,7 +132,7 @@ export const dummyData = [
     desc: 'Fix the leaky faucet in the kitchen.',
     date: '2023-10-19',
     time: '16:30',
-    status: 'APPROVED',
+    status: StatusKeys.APPROVED,
     price: 8000.0,
     jobPoster: {
       posterId: 106,
@@ -155,7 +157,7 @@ export const dummyData = [
     desc: 'Clean and organize the garage.',
     date: '2023-10-20',
     time: '09:00',
-    status: 'ASSIGNED',
+    status: StatusKeys.ASSIGNED,
     price: 9000.0,
     jobPoster: {
       posterId: 107,
@@ -180,7 +182,7 @@ export const dummyData = [
     desc: 'Install a ceiling fan in the bedroom.',
     date: '2023-10-21',
     time: '17:30',
-    status: 'ASSIGNED',
+    status: StatusKeys.ASSIGNED,
     price: 16000.0,
     jobPoster: {
       posterId: 108,
@@ -205,7 +207,7 @@ export const dummyData = [
     desc: 'Clean all the windows in the house.',
     date: '2023-10-22',
     time: '10:15',
-    status: 'DISPATCHED',
+    status: StatusKeys.DISPATCHED,
     price: 9000.0,
     jobPoster: {
       posterId: 109,
@@ -230,7 +232,7 @@ export const dummyData = [
     desc: 'Assemble and install a bookshelf in the study.',
     date: '2023-10-23',
     time: '14:45',
-    status: 'ACCEPTED',
+    status: StatusKeys.ACCEPTED,
     price: 5000.0,
     jobPoster: {
       posterId: 110,
@@ -255,7 +257,7 @@ export const dummyData = [
     desc: 'Repair the broken fence in the backyard.',
     date: '2023-10-24',
     time: '16:00',
-    status: 'DISPATCHED',
+    status: StatusKeys.DISPATCHED,
     price: 17000.0,
     jobPoster: {
       posterId: 111,
@@ -280,7 +282,7 @@ export const dummyData = [
     desc: 'Clean and organize the attic space.',
     date: '2023-10-25',
     time: '09:30',
-    status: 'ACCEPTED',
+    status: StatusKeys.ACCEPTED,
     price: 14000.0,
     jobPoster: {
       posterId: 112,
@@ -305,7 +307,7 @@ export const dummyData = [
     desc: 'Install outdoor lighting fixtures in the garden.',
     date: '2023-10-26',
     time: '18:15',
-    status: 'INPROGRESS',
+    status: StatusKeys.INPROGRESS,
     price: 11000.0,
     jobPoster: {
       posterId: 113,
@@ -330,7 +332,7 @@ export const dummyData = [
     desc: 'Repair the roof leak in the house.',
     date: '2023-10-27',
     time: '11:30',
-    status: 'INPROGRESS',
+    status: StatusKeys.INPROGRESS,
     price: 9000.0,
     jobPoster: {
       posterId: 114,
@@ -355,7 +357,7 @@ export const dummyData = [
     desc: 'Install security cameras around the property.',
     date: '2023-10-28',
     time: '14:00',
-    status: 'ONHOLD',
+    status: StatusKeys.ONHOLD,
     price: 7000.0,
     jobPoster: {
       posterId: 115,
@@ -380,7 +382,7 @@ export const dummyData = [
     desc: 'Clean and organize the basement area.',
     date: '2023-10-29',
     time: '09:45',
-    status: 'ONHOLD',
+    status: StatusKeys.ONHOLD,
     price: 11000.0,
     jobPoster: {
       posterId: 116,
@@ -405,7 +407,7 @@ export const dummyData = [
     desc: 'Paint the exterior walls of the house.',
     date: '2023-10-30',
     time: '15:30',
-    status: 'COMPLETED',
+    status: StatusKeys.COMPLETED,
     price: 12000.0,
     jobPoster: {
       posterId: 117,
@@ -430,7 +432,7 @@ export const dummyData = [
     desc: 'Install new flooring in the kitchen and living room.',
     date: '2023-10-31',
     time: '17:00',
-    status: 'COMPLETED',
+    status: StatusKeys.COMPLETED,
     price: 15000.0,
     jobPoster: {
       posterId: 118,
@@ -455,7 +457,7 @@ export const dummyData = [
     desc: 'Trim the trees in the backyard for safety.',
     date: '2023-11-01',
     time: '10:00',
-    status: 'INVOICED',
+    status: StatusKeys.INVOICED,
     price: 19000.0,
     jobPoster: {
       posterId: 119,
@@ -480,7 +482,7 @@ export const dummyData = [
     desc: 'Repair the garage door mechanism.',
     date: '2023-11-02',
     time: '11:15',
-    status: 'INVOICED',
+    status: StatusKeys.INVOICED,
     price: 25000.0,
     jobPoster: {
       posterId: 120,
@@ -505,7 +507,7 @@ export const dummyData = [
     desc: 'Trim the trees in the backyard for safety.',
     date: '2023-06-12',
     time: '10:00',
-    status: 'PAID',
+    status: StatusKeys.PAID,
     price: 19000.0,
     jobPoster: {
       posterId: 119,
@@ -530,7 +532,7 @@ export const dummyData = [
     desc: 'Repair the garage door mechanism.',
     date: '2023-09-02',
     time: '11:15',
-    status: 'PAID',
+    status: StatusKeys.PAID,
     price: 25000.0,
     jobPoster: {
       posterId: 120,

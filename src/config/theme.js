@@ -22,7 +22,7 @@ let theme = createTheme({
       NEW: '#de59dd',
       ESTIMATED: '#ff4081',
       APPROVED: '#9c35ae',
-      bids: '#00aeff',
+      BIDS: '#00aeff',
       ASSIGNED: '#184eca',
       DISPATCHED: '#402f66',
       ACCEPTED: '#ffcc00',

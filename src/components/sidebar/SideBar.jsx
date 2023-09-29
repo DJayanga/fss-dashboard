@@ -58,7 +58,6 @@ const SideBar = () => {
 
 export default SideBar;
 
-/** @type {import("@mui/material").SxProps} */
 const styles = {
   sidebar: {
     height: '100%',

@@ -13,10 +13,6 @@ const Settings = () => {
 
 export default Settings;
 
-/**
- * @type {import("@mui/material").SxProps}
- */
-
 const styles = {
   pageTitle: {
     fontWeight: 'bold',

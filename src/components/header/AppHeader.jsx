@@ -38,7 +38,7 @@ const styles = {
   },
   appLogo: {
     borderRadius: 2,
-    width: 80,
+    width: 100,
     marginLeft: 2,
     cursor: 'pointer',
   },
