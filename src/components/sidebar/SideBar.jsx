@@ -10,7 +10,7 @@ const SideBar = () => {
   const location = useLocation();
 
   return (
-    <Sidebar style={styles.sidebar} breakPoint="md" backgroundColor={theme.palette.neutral.light}>
+    <Sidebar style={styles.sidebar} breakPoint="md" backgroundColor={theme.palette.neutral.normal}>
       <Menu
         menuItemStyles={{
           button: ({ active }) => {
