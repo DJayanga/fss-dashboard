@@ -162,7 +162,5 @@ export default JobDetailsPopup;
 const styles = {
   formControl: {
     width: '150px',
-    margin: 0,
-    padding: 0,
   },
 };
